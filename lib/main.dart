@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:persistent_bottom_nav/persistent_tab_view/persistent_tab_view_style10.dart';
+import 'package:persistent_bottom_nav/animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: CustomPersistentBottomNavBarStyle10(),
+      home: CustomAnimatedBottomNavigationBar(),
     );
   }
 }
