@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
 
-import '../view/account.dart';
-import '../view/home.dart';
-import '../view/search.dart';
-import '../view/shopping_cart.dart';
+import '../../view/account.dart';
+import '../../view/home.dart';
+import '../../view/search.dart';
+import '../../view/shopping_cart.dart';
 
-class CustomPersistentBottomNavBarStyle7 extends StatelessWidget {
-  const CustomPersistentBottomNavBarStyle7({super.key});
+class CustomPersistentBottomNavBarStyle5 extends StatelessWidget {
+  const CustomPersistentBottomNavBarStyle5({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -75,7 +75,7 @@ class CustomPersistentBottomNavBarStyle7 extends StatelessWidget {
         ),
 
         navBarStyle:
-            NavBarStyle.style7, // Choose the nav bar style with this property.
+            NavBarStyle.style5, // Choose the nav bar style with this property.
       ),
     );
   }
