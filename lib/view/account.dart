@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:persistent_bottom_nav/select_box/multiple_bs_flutter_selectbox/multiple_bs_flutter_selectbox.dart';
+import 'package:persistent_bottom_nav/select_box/multiple_select_box/multiple_select_box.dart';
 
-import '../select_box/bs_flutter_selectbox/bs_flutter_selectbox.dart';
+import '../select_box/widget_selectable_box/widget_selectable_box.dart';
 
 class AccountView extends StatelessWidget {
   const AccountView({super.key});
@@ -10,14 +10,9 @@ class AccountView extends StatelessWidget {
   Widget build(BuildContext context) {
     return const SafeArea(
       child: Scaffold(
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: [
-            CustomBsflutterSelectBox(),
-            CustomMultipleBsflutterSelectBox(),
-          ],
-        ),
-      ),
+          body: Center(
+        child: CustomMultipleSelectBox(),
+      )),
     );
   }
 }
