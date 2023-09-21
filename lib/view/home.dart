@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:persistent_bottom_nav/appbar/gradient_app_bar/gradient_app_bar.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
@@ -6,9 +7,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(
-        child: Text('HomeView'),
-      ),
+      body: TestAppbar(),
     );
   }
 }

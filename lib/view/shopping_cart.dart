@@ -1,16 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:persistent_bottom_nav/appbar/custom_appbar/appbar_animated.dart';
 
 class ShoppingCart extends StatelessWidget {
   const ShoppingCart({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body: Center(
-          child: InkWell(onTap: () {}, child: const Text('ShoppingCart')),
-        ),
-      ),
-    );
+    return DetailPage();
   }
 }

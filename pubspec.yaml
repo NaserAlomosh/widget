@@ -37,10 +37,10 @@ dependencies:
   ## Select Box
   multiselect: ^0.1.0
   selectable_box: ^1.0.8
-
-  # bs_flutter_selectbox: 
-  # bs_flutter: any
-
+  ## Appbar
+  appbar_animated: ^0.0.3
+  sliver_app_bar_builder: ^1.1.0
+  flutter_gradient_app_bar: ^0.3.1
 
 
   # The following adds the Cupertino Icons font to your application.

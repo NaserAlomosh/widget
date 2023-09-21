@@ -9,6 +9,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.1"
+  appbar_animated:
+    dependency: "direct main"
+    description:
+      name: appbar_animated
+      sha256: d94be1de0ed0e72ed8a842a8d01d0425df9e061356843e7eb6da2626e99c2ae9
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.3"
   async:
     dependency: transitive
     description:
@@ -78,6 +86,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_gradient_app_bar:
+    dependency: "direct main"
+    description:
+      name: flutter_gradient_app_bar
+      sha256: "41867af88f1723fb76ce8aa1cc90a4b1492398445c755055b8a01b6b81950639"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.3.1"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -189,6 +205,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
+  sliver_app_bar_builder:
+    dependency: "direct main"
+    description:
+      name: sliver_app_bar_builder
+      sha256: "6fcf3d2948db8d50978f3921dfc34cf0aa14c791f8bc02bf8a7ea12fcae771b1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
   source_span:
     dependency: transitive
     description:
