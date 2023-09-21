@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:selectable_box/selectable_box.dart';
+//  selectable_box: ^1.0.8
 
 class CustomSelectImage extends StatefulWidget {
   const CustomSelectImage({super.key});
@@ -16,10 +17,12 @@ class CustomSelectImageState extends State<CustomSelectImage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Colors.black.withOpacity(0.9),
         body: ListView(
           children: [
             Column(
               children: [
+                const SizedBox(height: 10),
                 const Center(
                   child: Text(
                     'Selectable Box',
@@ -33,7 +36,7 @@ class CustomSelectImageState extends State<CustomSelectImage> {
                 const SizedBox(height: 20),
                 SelectableBox(
                   height: 250,
-                  width: 400,
+                  width: double.infinity,
                   onTap: () {
                     setState(() {
                       isSelected_1 = !isSelected_1;

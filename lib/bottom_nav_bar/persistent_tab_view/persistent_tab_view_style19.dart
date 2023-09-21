@@ -5,6 +5,7 @@ import '../../view/account.dart';
 import '../../view/home.dart';
 import '../../view/search.dart';
 import '../../view/shopping_cart.dart';
+//  persistent_bottom_nav_bar: ^5.0.2
 
 class CustomPersistentBottomNavBarStyle19 extends StatelessWidget {
   const CustomPersistentBottomNavBarStyle19({super.key});

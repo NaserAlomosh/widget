@@ -5,6 +5,7 @@ import 'package:persistent_bottom_nav/view/home.dart';
 import 'package:persistent_bottom_nav/view/search.dart';
 import 'package:persistent_bottom_nav/view/shopping_cart.dart';
 
+// google_nav_bar: ^5.0.6
 class CustomGoogleNavBar extends StatefulWidget {
   const CustomGoogleNavBar({super.key});
 

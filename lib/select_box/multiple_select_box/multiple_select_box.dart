@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:multiselect/multiselect.dart';
 
+//   multiselect: ^0.1.0
 class CustomMultipleSelectBox extends StatefulWidget {
   const CustomMultipleSelectBox({Key? key}) : super(key: key);
 

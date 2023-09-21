@@ -5,6 +5,7 @@ import 'package:persistent_bottom_nav/view/home.dart';
 import 'package:persistent_bottom_nav/view/search.dart';
 import 'package:persistent_bottom_nav/view/shopping_cart.dart';
 
+//  animated_bottom_navigation_bar: ^1.2.1
 class CustomAnimatedBottomNavigationBar extends StatefulWidget {
   const CustomAnimatedBottomNavigationBar({super.key});
 
