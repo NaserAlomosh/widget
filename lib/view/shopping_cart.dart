@@ -6,6 +6,6 @@ class ShoppingCart extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return DetailPage();
+    return const DetailPage();
   }
 }
